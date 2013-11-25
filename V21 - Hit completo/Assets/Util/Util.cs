@@ -3,6 +3,10 @@ using System.Collections;
 
 public class Util : MonoBehaviour 
 {
+	public void Update()
+	{
+		Debug.Log("teste");
+	}
 
 	public void MataPlayer(GameObject player,GameObject camera)
 	{
